@@ -1,0 +1,666 @@
+*{margin: 0;padding: 0}
+body{
+    line-height: 150%;
+    font-size: 14px;
+    background: url(../imgs/bgimg.png) left top repeat;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* Top Begin */
+#mainTop{
+    position: absolute;
+    left: 0;top: 0;
+    width: 100%;height: 200px;
+}
+#topBar{
+    position: absolute;
+    left: 0;top: 0;
+    width: 100%;height: 40px; 
+    background: #006699;
+}
+.barMenu{
+    position: absolute;
+    left: 10%;top: 0;
+    width: auto;height: 40px;
+    line-height: 40px;
+}
+.barMenu a{
+    color:#61b9e1;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.barMenu a:hover{
+    background: #41AADF;
+    border-radius: 2px;
+    color: #FFF;
+}
+.searchBar{
+    position: absolute;
+    right: 10%;top: 0;
+    width: auto;height: 40px;
+}
+.searchText{
+    position: absolute;
+    top: 10px;right: 0;
+    padding-left: 10px;
+    width: 150px;height: 20px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.searchButton{
+    position: absolute;
+    top: 10px;right: 0;
+    width: 20px;height: 20px;
+    border: none;
+    background: url(../imgs/search.png) no-repeat center;
+}
+#mainLogo{
+    position: absolute;
+    left: 0;top: 40px;
+    width: 100%;height: 160px;
+    background: #1295d8 url(../imgs/bgimg2.png) left top repeat;
+}
+.logo{
+    position: absolute;
+    left: 10%;top: 30px;
+    height: 160px;
+}
+.gif{
+    position: absolute;
+    right: 10%;top: 38px;
+}
+/* Top END */
+
+/* Mid Begin */
+#mainMid{
+    position: absolute;
+    left: 10%;top: 200px;
+    width: 80%;height: 400px;
+    overflow: hidden;
+}
+#naviBar{
+    position: absolute;
+    left: 0;top: 0;
+    width: 100%;height: 40px;
+}
+.naviBarLeft{
+    position: absolute;
+    left: 0;top: 0;
+    height: 40px;width: auto;
+}
+.naviBarLeft div{
+    float: left;
+    width: auto;height: 40px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #006699;
+    text-align: center;
+}
+.naviBarLeft div:hover{
+    background: #006699;
+    background-position: 0 0;
+    color: #fff;
+}
+.naviBarRight{
+    position: absolute;
+    right: 0;top: 0;
+    height: 40px;
+    width: auto;
+}
+.naviBarRight div{
+    float: left;
+    width: auto;height: 40px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #006699;
+    text-align: center;
+}
+.naviBarRight div:hover{
+    background: #006699;
+    background-position: 0 0;
+    color: #fff;
+}
+#picChangeDiv{
+    position: absolute;
+    left: 0;top: 40px;
+    width: 100%;height: 360px;
+    overflow: hidden;
+}
+#picChange{
+    position: absolute;
+    left: 0;top: 0;
+    width: 100%;
+    height: auto;
+}
+#picChange div{
+    width: 100%;height:360px; 
+}
+
+/* Mid END */
+
+/* Container Begin */
+#mainContainer{
+    position: absolute;
+    left: 10%;top: 600px;
+    width: 80%;height: 1300px;
+}
+#ctnTop{
+    position: absolute;
+    left: 0;top: 0;
+    width: 100%;height: 365px;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+}
+#imgMain{
+    position: absolute;
+    left: 3%;top: 60px;
+    width: 40%;height: 290px;
+    background-image: url('../imgs/bg/1.jpg');
+    background-size: 100% 100%;
+    user-select: none;
+}
+#buttonLeft,#buttonRight{
+    margin-top: -25px;
+    width: 50px;height: 50px;
+    background-color: skyblue;
+    line-height: 50px;
+    font-size: 2em;
+    text-align: center;
+    opacity: 0.1;
+    cursor: pointer;
+}
+#buttonLeft{
+    position: absolute;
+    left: 0;top: 50%;
+}
+#buttonRight{
+    position: absolute;
+    right: 0;top: 50%;
+}
+#buttonLeft:hover{
+    opacity: 0.8;
+}
+#buttonRight:hover{
+    opacity: 0.8;
+}
+#dots{
+    position: absolute;
+    bottom: 0;left: 50%;
+    margin-left: -80px;
+    width: 160px;
+    height: 20px;
+}
+.dot{
+    width: 20px;height: 20px;
+    float: left;
+    margin-left: 10px;
+    background-color: #1295d8;
+    opacity: 0.2;
+    cursor: pointer;
+}
+.d1{opacity: 0.8};
+.dot:hover{opacity: 0.8}
+#newsCenter{
+    position: absolute;
+    right: 3%;top: 60px;
+    width: 50%;height: 290px;
+}
+#newsCenter ul li{
+    width: auto;height: 30px;
+    margin-top: 6px;
+}
+#newsCenter ul .smallt a{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #585858;
+}
+.importNew{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #3a6496;
+}
+#newsCenter ul li a:hover{
+    text-decoration: underline;
+}
+.importNew:hover{
+    color: #428bca;
+}
+
+
+#ctnMid{
+    position: absolute;
+    left: 0;top: 380px;
+    width: 100%;height: 600px;
+}
+.midLeft{
+    position: absolute;
+    left: 0;top: 0;
+    width: 63%;height: 100%;
+}
+.midLeftTop{
+    position: absolute;
+    left: 0;top: 0;
+    width: 100%;height: 49%;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    background-color: white;
+}
+.midLeftDown{
+    position: absolute;
+    left: 0;top: 51%;
+    width: 100%;height: 49%;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    background-color: white;
+}
+.title{
+    position: absolute;
+    left: 3%;top: 0;
+    width: 94%;height: 50px;
+    border-bottom: 1px double #1295d8;
+}
+.title h2{
+    position: absolute;
+    left: 0;top: 0;
+    width: auto;height: 50px;
+    font-size: 18px;
+    color: #1295d8;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}
+.title h3{
+    float: right;
+    margin: 15px 15px 0 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #666666;
+}
+.title h2 em{
+    font-size: 12px;
+    color: #999999;
+    font-style: normal;
+}
+.title a{
+    float: right;
+    color: black;
+    font-size: 10px;
+}
+.news{
+    position: absolute;
+    left: 3%;top: 60px;
+    width: 94%;height: 230px;
+}
+.news div ul li{
+    width: auto;height: 30px;
+    margin-top: 2px;
+}
+.news div ul li a{
+    display: inline-block;
+    width: 79%;
+    padding-left: 3.3%;
+    font-size: 15px;
+    color: #585858;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.news div ul li a:hover{
+    color: #428bca;
+    text-decoration: underline;
+}
+.news div ul li em{
+    font-size: 12px;
+    color: #999999;
+    font-style: normal;
+}
+.new1{
+    display: block;
+}
+.new2{
+    display: none;
+}
+.midRight{
+    position: absolute;
+    right: 0;top: 0;
+    width: 35%;height: 100%;
+}
+.midRight div{
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+}
+.midRightDiv1{
+    position: absolute;
+    left: 0;top: 0;
+    width: 100%;height: 190px;
+}
+.midRightDiv2{
+    position: absolute;
+    left: 0;top: 205px;
+    width: 100%;height: 190px;
+}
+.midRight div div{
+    border: none !important;
+    background-color: #F4F4F4;
+}
+.midRightDiv3{
+    position: absolute;
+    left: 0;top: 410px;
+    width: 100%;height: 190px;
+}
+.mRDL{
+    position: absolute;
+    left: 0;top: 0;
+    width: 30%;height: 100%;
+    background-color: black;
+}
+.mRDL div{
+    position: absolute;
+    left: 25%;top: 25%;
+    width: 50%;height: 50%;
+}
+.mRDL div img{
+    width: 100%;height: 70%;
+}
+.mRDL div p{
+    width: 100%;height: 20%;
+    margin-top: 10%;
+    text-align: center;
+    color: #428bca;
+    font-weight: bold;
+    font-size: 10px;
+}
+.mRDImg{
+    position: absolute;
+    left: 30%;top: 0;
+    width: 70%;height: 100%;
+    overflow: hidden;
+}
+.mRDImg img{
+    width: 100%;height: 100%;
+}
+.mRDImg h3{
+    position: absolute;
+    left: 0;bottom: 0;
+    width: 100%;
+    height: 0px;
+    line-height: 28px;
+    text-align: center;
+    z-index: 2;
+    font-size: 13px;
+    color: #fff;
+    font-weight: normal;
+    background-color: rgba(244, 244, 244, 0.4);
+    transition:height 0.5s;
+    -webkit-transition:height 0.5s;
+}
+.mRDImg:hover h3{
+    height: 28px;
+}
+#ctnDown{
+    position: absolute;
+    left: 0;top: 1000px;
+    width: 100%;height: 300px;
+}
+#ctnDown div{
+    float: left;
+    width: 15%;height: 180px;
+    margin-top: 60px;margin-left: 5%;
+    background-color: lightgray;
+    overflow: hidden;
+}
+#ctnDown div img{
+    width: 100%;height: 130px;
+    vertical-align: middle;
+    transition: all 0.4s ease-in-out;
+}
+#ctnDown div h3{
+    width: 100%;height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #1295D8;
+}
+.contact{
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.contact a{
+    display: block;
+    width: 100%;height: 90px;
+    text-align: center;
+    line-height: 90px;
+    color: #1295D8;
+    font-size: 18px;
+}
+.wechat:hover .wechatDiv{
+    display: block;
+}
+.wechatDiv{
+    position: absolute;
+    top: 0;right: 0;
+    width: 15%;height: 180px;
+    background-color: black;
+    display: none;
+}
+.wechatDiv img{
+    width: 100% !important;
+    height: 100% !important;
+}
+#ctnDown div:hover img{
+    transform: scale(1.12);
+}
+#ctnDown div:hover h3{
+    text-decoration: underline;
+}
+/* Container END */
+
+/* Down Begin */
+#mainDown{
+    position: absolute;
+    left: 0;top: 1900px;
+    width: 100%;height: 1000px;
+}
+.downTop{
+    position: absolute;
+    left: 0;top: 0;
+    width: 100%;height: 400px;
+    background: #1295d8 url(../imgs/bgimg2.png) left top repeat;
+}
+.downTitle{
+    position: absolute;
+    left: 50%;top: 0;
+    width: 16%;height: 50px;
+    margin-left: -8%;
+    border: 5px double white;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+}
+.downMidT{
+    border: 5px double #1295d8;
+    color: #1295d8;
+}
+.downPic{
+    position: absolute;
+    left: 10%;top: 100px;
+    width: 30%;height: 260px;
+}
+.downPic img{
+    width: 100%;height: 260px;
+}
+.downCtn{
+    position: absolute;
+    right: 10%;top: 100px;
+    width: 40%;height: 260px;
+}
+.downCtn div{
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+}
+.downCtnTop a{
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    width: 33%;height: 65px;
+    line-height: 65px;
+    text-align: center;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+.downCtnDown a{
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    width: 33%;height: 65px;
+    line-height: 65px;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+}
+.downMid div div a{
+    color: #1295D8;
+}
+.downCtn div a:hover{
+    text-decoration: underline;
+}
+.downMid{
+    position: absolute;
+    left: 0;top: 400px;
+    width: 100%;height: 400px;
+}
+.downDown{
+    position: absolute;
+    left: 0;top: 800px;
+    width: 100%;height: 200px;
+}
+.titleDD{
+    position: absolute;
+    left: 10%;top: 0;
+    width: 80%;height: 50px;
+    border-bottom: 1px double #1295d8;
+}
+.ctnDD{
+    position: absolute;
+    left: 10%;top: 50px;
+    width: 80%;height: 150px;
+}
+.ctnDD a{
+    display:block;
+    float: left;
+    width: 20%;height: 30px;
+    line-height: 30px;
+    margin-top: 15px;
+    text-align: center;
+    color: #1295d8;
+}
+.ctnDD a:hover{
+    text-decoration: underline;
+} 
+/* Down END */
+
+/*end*/
+#end{
+    position: absolute;
+    overflow: hidden;
+    left: 0;top: 2900px;
+    width: 100%;height: 200px;
+    background: #1295d8 url(../imgs/bgimg2.png) left top repeat;
+}
+.endLeft{
+    position: absolute;
+    left: 10%;top: 10px;
+    width: 20%;height: 180px;
+}
+.endMid{
+    position: absolute;
+    left: 40%;top: 10px;
+    width: 20%;height: 180px;
+}
+.endRight{
+    position: absolute;
+    right: 10%;top: 10px;
+    width: 20%;height: 180px;
+}
+.endLeft ul li{
+    width: 40%;
+    height: 180px;
+    border-right: 1px solid #f1f1f1;
+    float: left;
+}
+.endLeft ul li a {
+    display: block;
+    text-align: right;
+    color: #f1f1f1;
+    padding-right: 10px;
+    line-height: 36px;
+    text-decoration: none;
+}
+.endMidLogo img{
+    position: absolute;
+    left: 0;top: 0;
+    width: 100%;height: 70px;
+    display: block;
+}
+.endMidCtn{
+    position: absolute;
+    left: 0;top: 80px;
+    width: 100%;height: 100px;
+}
+.copyright{
+    color: #f1f1f1;
+    width: 100%;height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+.other{
+    width: 100%;
+    height: 30px;
+}
+.other a{
+    display: block;
+    width: 100%;
+    color: #f1f1f1;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 10px;
+}
+.others a{
+    float: left;
+    width: 50%;
+}
+.endRight ul li{
+    width: 40%;
+    height: 180px;
+    border-left: 1px solid #f1f1f1;
+    float: left;
+}
+.endRight ul li a {
+    display: block;
+    text-align: left;
+    color: #f1f1f1;
+    padding-left: 10px;
+    line-height: 45px;
+    text-decoration: none;
+}
